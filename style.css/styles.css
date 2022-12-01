@@ -1,0 +1,57 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.canva {
+    background: #F1F3FF;
+}
+
+.navbar-brand {
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+    background:  #0D28A6;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.bi-list {
+    width: 24px;
+    height: 24px;
+    left: 320px;
+    top: 29px;
+}
+
+#home {
+    background-color: #F1F3FF;
+    font-style: arial !important;
+}
+
+.bg {
+    z-index: 1;
+}
+
+
+
+
