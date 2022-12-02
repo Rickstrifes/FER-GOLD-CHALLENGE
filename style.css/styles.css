@@ -43,14 +43,16 @@
     top: 29px;
 }
 
-#home {
+
+.navbar {
     background-color: #F1F3FF;
-    font-style: arial !important;
 }
 
-.bg {
-    z-index: 1;
+#banner {
+    background-color: #F1F3FF;
 }
+
+
 
 
 
