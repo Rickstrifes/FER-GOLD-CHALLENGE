@@ -4,8 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
+/* Navbar */
 .canva {
     background: #F1F3FF;
 }
@@ -48,12 +50,34 @@
     background-color: #F1F3FF;
 }
 
-#banner {
+/* hero banner */
+.hero {
     background-color: #F1F3FF;
+    
 }
 
+/* Our Services */
+h2 {
+    font-size: 24px;
+}
 
+.list-icon {
+    margin-left: -35px;
+}
 
+.ourservices {
+    padding-top: 50px;
+}
 
+.services-text {
+    padding-left: 100px;
+}
 
+/* Why Us */
+
+.text-span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
 
