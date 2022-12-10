@@ -51,7 +51,7 @@
 }
 
 /* hero banner */
-.hero {
+.hero, .banner {
     background-color: #F1F3FF;
     
 }
@@ -74,7 +74,13 @@ h2 {
 }
 
 /* Why Us */
-
+.card-texty {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
 
 /* Testimoni */
 .custom-card-testimoni {
@@ -95,4 +101,44 @@ h2 {
 .pencetKanan {
     border: none;
     background-color: white;
+}
+
+/* Call to action */
+.cta {
+    width: 1168px;
+    height: 326px;
+    background-color: #0D28A6;
+    border-radius: 13px;
+}
+
+
+/* Faq Section */
+.faq-texty {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.faq-textyy {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.accordion-item {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    
+}
+
+.accordion-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
 }
