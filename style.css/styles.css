@@ -208,3 +208,88 @@ footer {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
     background: white;
 }
+
+/* HasilPencarian */
+.bgkosongbiru {
+    width: 1440px;
+    height: 266px;
+    background: #F1F3FF;
+}
+
+.card-luar {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.testcardcar {
+    height: 478px;
+}
+
+.card-car-btn {
+    width: 285px;
+    height: 48px;
+    background: #5CB85F;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-left: 25px;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.innova-img {
+    object-fit: cover;
+    width: 270px;
+    height: 160px;
+    margin-left: 30px;
+    
+}
+
+.innova-style-text-span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.innova-style-text-h5 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.innova-style-text-p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.asd {
+    background-image: url(/Asset/fi_check-circle.png);
+    object-fit: cover;
+}
+
+.btn-edit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+    color: #0D28A6;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.custom-h5-pencarian {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
