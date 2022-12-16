@@ -47,15 +47,26 @@
 
 
 .navbar {
-    background-color: #F1F3FF;
+    background: #F1F3FF;
 }
 
 /* hero banner */
-.hero, .banner {
-    background-color: #F1F3FF;
+.hero  {
+    background: #F1F3FF;
+    position: relative;
+    
+}
+
+.bg {
+    position: absolute;
+    background-size: cover;
 }
 
 /* Our Services */
+#services {
+    position: relative;
+}
+
 h2 {
     font-size: 24px;
 }
@@ -118,9 +129,11 @@ h2 {
         width: 328px;
         height: 420px;
     }
-    
-}
+    .containerz {
+        max-height: 657px;
+    }
 
+}
 
 /* Faq Section */
 .faq-texty {
@@ -193,17 +206,57 @@ footer {
 }
 
 /* Cari Mobil Form Style */
-.btn-customform {
-    margin-top: 21px;
+.text-styler {
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+}
+
+.customlabel {
+    position: relative;
+    width: 195px;
+}
+
+.btn-customize {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-top: 23px;
+    
+}
+
+.btn-customformer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 92px;
+    height: 36px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.linkhilang {
+    text-decoration: none;
 }
 
 .booking {
     position: relative;
-    margin-top: -75px;
+    margin-top: -70px;
     z-index: 1;
 }
 
 .bookingborder {
+    width: 1047px;
     border-radius: 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
     background: white;
@@ -211,7 +264,7 @@ footer {
 
 /* HasilPencarian */
 .bgkosongbiru {
-    width: 1440px;
+    width: 100hv;
     height: 266px;
     background: #F1F3FF;
 }
@@ -222,26 +275,27 @@ footer {
 }
 
 .testcardcar {
+    position: relative;
     height: 478px;
+    overflow: hidden;
 }
 
 .card-car-btn {
-    width: 285px;
+    width: 300px;
     height: 48px;
     background: #5CB85F;
     border-radius: 2px;
     box-sizing: border-box;
-    margin-left: 25px;
     border: none;
-    margin-bottom: 25px;
+    margin: auto;
+    margin-bottom: 25px !important;
 }
 
 .innova-img {
     object-fit: cover;
     width: 270px;
     height: 160px;
-    margin-left: 30px;
-    
+    margin-left: 35px;
 }
 
 .innova-style-text-span {
@@ -282,7 +336,7 @@ footer {
     border-radius: 2px;
     color: #0D28A6;
     font-weight: 700;
-    margin-top: 70px;
+    margin-top: 65px;
     margin-left: 10px;
 }
 
