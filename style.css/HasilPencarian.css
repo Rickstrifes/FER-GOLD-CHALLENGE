@@ -1,0 +1,224 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.canva {
+    background: #F1F3FF;
+}
+
+.navbar-brand {
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+    background:  #0D28A6;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+
+.navbar {
+    background: #F1F3FF;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.text-footer {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-footer1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.text-footer2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.brand-logo {
+    width: 100px;
+    height: 34px;
+    left: 873px;
+    top: 36px;
+    background: #0D28A6;
+    margin-left: 80px;
+}
+
+
+/* Cari Mobil Form Style */
+.text-styler {
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #3C3C3C;
+}
+
+.customlabel {
+    position: relative;
+    width: 195px;
+}
+
+.btn-customize {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-top: 23px;
+    
+}
+
+.btn-customformer {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 92px;
+    height: 36px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.linkhilang {
+    text-decoration: none;
+}
+
+.booking {
+    position: relative;
+    margin-top: -75px;
+    z-index: 1;
+}
+
+.bookingborder {
+    width: 1047px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+/* HasilPencarian */
+.bgkosongbiru {
+    width: 100hv;
+    height: 290px;
+    background: #F1F3FF;
+}
+
+.card-luar {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.testcardcar {
+    position: relative;
+    height: 478px;
+    overflow: hidden;
+}
+
+.card-car-btn {
+    width: 300px;
+    height: 48px;
+    background: #5CB85F;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: none;
+    margin: auto;
+    margin-bottom: 25px !important;
+}
+
+.innova-img {
+    object-fit: cover;
+    width: 270px;
+    height: 160px;
+    margin-left: 35px;
+}
+
+.innova-style-text-span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.innova-style-text-h5 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.innova-style-text-p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn-edit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+    color: #0D28A6;
+    font-weight: 700;
+    margin-top: 65px;
+    margin-left: 10px;
+}
+
+.custom-h5-pencarian {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}

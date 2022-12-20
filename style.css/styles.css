@@ -54,12 +54,55 @@
 .hero  {
     background: #F1F3FF;
     position: relative;
-    
+    overflow-y: hidden;
 }
 
+.custom-margin {
+    margin-top: 95px;
+}
+
+.margin-text {
+    margin-top: 80px;
+}
+
+.banner {
+    height: 500px;
+    width: 1440px;
+}
 .bg {
     position: absolute;
     background-size: cover;
+    margin-right: 100px;
+}
+
+.text-styled {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.text-styledd {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn-primaryy {
+    background: #5CB85F;
+    border-radius: 2px;
+}
+
+.style-button {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 /* Our Services */
@@ -67,8 +110,29 @@
     position: relative;
 }
 
-h2 {
+.text-style-bestcar {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
     font-size: 24px;
+    line-height: 36px;
+}
+
+.text-style-describe-car {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.text-style-car-check {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .list-icon {
@@ -132,8 +196,74 @@ h2 {
     .containerz {
         max-height: 657px;
     }
+    .margin-text{
+        margin-top: 0;
+    }
+    .banner {
+        width: 360px;
+        height: 690px;
+        position: relative;
+        overflow-y: hidden;
+    }
+    .btn-primaryy {
+        margin-bottom: 32px;
+    }
+    .container-mba{
+        display: flex;
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    .services-text {
+        margin: 0;
+        padding: 0;
+        text-size-adjust:inherit;
+        margin-left: 5px;
+    }
+    .list-icon {
+        margin-left: 1px;
+    }
+    .customcardbody {
+        display: flex;
+        margin-left: 20px;
+    }
+    .customcardbodyy {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .sijhon {
+        position: absolute;
+        display: flex;
+        background-image: url(../Asset/jhon.png);
+        background-repeat: no-repeat;
+        left: 39px;
+        
+    }
+    .customrow {
+        display: inline-flex;
+        background:cover;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-right: -80px;
 
+    }
+    .jhon2 {
+        display: none;
+    }
+    .jalansendiri {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
 }
+
+@media screen and (max-width: 575px) {
+    .jhon2 {
+        display: none;
+    }
+}
+
 
 /* Faq Section */
 .faq-texty {
@@ -155,7 +285,6 @@ h2 {
 .accordion-item {
     border: 1px solid #dee2e6;
     border-radius: 4px;
-    
 }
 
 .accordion-text {
@@ -205,145 +334,3 @@ footer {
     margin-left: 80px;
 }
 
-/* Cari Mobil Form Style */
-.text-styler {
-    font-family: 'arial';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 18px;
-    color: #3C3C3C;
-}
-
-.customlabel {
-    position: relative;
-    width: 195px;
-}
-
-.btn-customize {
-    display: flex;
-    justify-content: center;
-    align-self: start;
-    margin-top: 23px;
-    
-}
-
-.btn-customformer {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 92px;
-    height: 36px;
-    background: #5CB85F;
-    border-radius: 2px;
-    border: none;
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.linkhilang {
-    text-decoration: none;
-}
-
-.booking {
-    position: relative;
-    margin-top: -70px;
-    z-index: 1;
-}
-
-.bookingborder {
-    width: 1047px;
-    border-radius: 15px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
-    background: white;
-}
-
-/* HasilPencarian */
-.bgkosongbiru {
-    width: 100hv;
-    height: 266px;
-    background: #F1F3FF;
-}
-
-.card-luar {
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-}
-
-.testcardcar {
-    position: relative;
-    height: 478px;
-    overflow: hidden;
-}
-
-.card-car-btn {
-    width: 300px;
-    height: 48px;
-    background: #5CB85F;
-    border-radius: 2px;
-    box-sizing: border-box;
-    border: none;
-    margin: auto;
-    margin-bottom: 25px !important;
-}
-
-.innova-img {
-    object-fit: cover;
-    width: 270px;
-    height: 160px;
-    margin-left: 35px;
-}
-
-.innova-style-text-span {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.innova-style-text-h5 {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.innova-style-text-p {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.asd {
-    background-image: url(/Asset/fi_check-circle.png);
-    object-fit: cover;
-}
-
-.btn-edit {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #0D28A6;
-    border-radius: 2px;
-    color: #0D28A6;
-    font-weight: 700;
-    margin-top: 65px;
-    margin-left: 10px;
-}
-
-.custom-h5-pencarian {
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-}

@@ -1,0 +1,161 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.canva {
+    background: #F1F3FF;
+}
+
+.navbar-brand {
+    width: 100px;
+    height: 34px;
+    left: 136px;
+    top: 25px;
+    background:  #0D28A6;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.bi-list {
+    width: 24px;
+    height: 24px;
+    left: 320px;
+    top: 29px;
+}
+
+
+.navbar {
+    background: #F1F3FF;
+}
+
+
+
+/* Footer */
+footer {
+    margin-top: 60px;
+}
+
+.text-footer {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-footer1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+}
+
+.text-footer2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.brand-logo {
+    width: 100px;
+    height: 34px;
+    left: 873px;
+    top: 36px;
+    background: #0D28A6;
+    margin-left: 80px;
+}
+
+
+
+.booking {
+    position: relative;
+    margin-top: -75px;
+    z-index: 1;
+}
+
+.bookingborder {
+    width: 1047px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+    background: white;
+}
+
+/* HasilPencarian */
+.bgkosongbiru {
+    width: 100hv;
+    height: 290px;
+    background: #F1F3FF;
+}
+
+
+.asd {
+    background-image: url(/Asset/fi_check-circle.png);
+    object-fit: cover;
+}
+
+
+
+.custom-h5-pencarian {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Detail Paket Sewa */
+.stylepaket-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+}
+.style-paket-list {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 175%;
+}
+
+.style-detail-sewa-card {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    color: #ffff;
+}
+
+.text-search-style {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
